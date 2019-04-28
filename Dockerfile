@@ -10,8 +10,6 @@ MAINTAINER William Wong "wonggwing@gmail.com"
 ENV DISPLAY=:1 \
     VNC_PORT=5901 \
     NO_VNC_PORT=6901 \
-
-### Envrionment config
     HOME=/headless \
     TERM=xterm \
     STARTUPDIR=/dockerstartup \
