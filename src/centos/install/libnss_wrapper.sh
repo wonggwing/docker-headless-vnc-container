@@ -2,9 +2,9 @@
 ### every exit != 0 fails the script
 set -e
 
-echo "Install nss-wrapper to be able to execute image as non-root user"
-yum -y install nss_wrapper gettext
-yum clean all
+# echo "Install nss-wrapper to be able to execute image as non-root user"
+# yum -y install nss_wrapper gettext
+# yum clean all
 
 echo "add 'source generate_container_user' to .bashrc"
 
