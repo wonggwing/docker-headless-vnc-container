@@ -5,4 +5,4 @@ set -u
 
 echo "Download minecraft launcher"
 mkdir -p $HOME/minecraft
-wget -qO- https://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.jar $HOME/minecraft/Minecraft.jar
+wget -q https://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.jar -O $HOME/minecraft/Minecraft.jar
